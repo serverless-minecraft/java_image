@@ -1,0 +1,17 @@
+{
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "NAME",
+        "Type": "A",
+        "TTL": 5,
+        "ResourceRecords": [
+          {
+            "Value": "IPADDR"
+          }
+        ]
+      }
+    }
+  ]
+}
