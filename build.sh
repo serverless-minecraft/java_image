@@ -1,6 +1,10 @@
 #!/bin/bash -exu
 
-. ./config.sh
+export repositoryName="minecraft"
+export region="ap-southeast-2"
+export AWS_REGION=$region
+export AWS_DEFAULT_REGION=$region
+aws configure set region $region
 
 docker build -t minecraft minecraft-image
 
